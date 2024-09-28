@@ -53,6 +53,6 @@ export const getCountryInfo = async (countryCode: string) => {
     populationData,
     flagUrl,
   };
-  console.log(countryInfo);
+
   return countryInfo;
 };
